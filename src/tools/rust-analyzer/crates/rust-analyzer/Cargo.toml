@@ -33,7 +33,7 @@ serde_json = { workspace = true, features = ["preserve_order"] }
 serde.workspace = true
 rayon = "1.6.1"
 num_cpus = "1.15.0"
-mimalloc = { version = "0.1.30", default-features = false, optional = true }
+mimalloc = { version = "0.1.39", default-features = false, optional = true }
 lsp-server.workspace = true
 tracing = "0.1.35"
 tracing-subscriber = { version = "0.3.16", default-features = false, features = [
